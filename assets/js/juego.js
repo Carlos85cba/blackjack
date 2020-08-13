@@ -107,7 +107,7 @@ const turnoComputadora = (puntosMinimos) => {
         else if (puntosMinimos === puntosComputadora) {
             alert('Nadie gano');
         }
-    }, 30);
+    }, 100);
 }
 
 
