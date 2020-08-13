@@ -130,7 +130,7 @@ btnPedir.addEventListener('click', () => {
         btnPedir.disabled = true;
         btnDetener.disabled = true;
         turnoComputadora(puntosJugador);
-        setTimeout(() => { alert('Perdiste :(') }, 30);
+        setTimeout(() => { alert('Perdiste :(') }, 100);
     }
     else if (puntosJugador === 21) {
         console.warn('21, genial!');
